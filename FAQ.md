@@ -106,7 +106,7 @@ paradigms, the more effective you are in that multi-paradigm langage.
 ------------------------------------------------------------------------
 
 <a name="q300"></a>
-### In regard to the code challenge solution, why is the '+' operator being used to concatenate strings? I thought we were supposed to use the join() method in Python? 
+### In regard to the code challenge solution, why is the '+' operator being used to concatenate strings? I thought we were supposed to use the join() method in Python?
 
 Using `join()` to join large numbers of strings is definitely faster in Python
 than using the `+` operator to do it. The reason is that every time you `join()`
